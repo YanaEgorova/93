@@ -1,0 +1,18 @@
+.about__wrapper  {
+   background-image: url(../img/img9.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.about {
+  padding: 5rem;
+}
+.about .title {
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .about {
+    padding: 15rem;
+    text-align: right;
+  }
+}

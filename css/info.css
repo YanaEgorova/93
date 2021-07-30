@@ -1,0 +1,11 @@
+.info .text {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 1024px) {
+  .info {
+    padding: 5rem 0;
+  }
+  .info .item:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
